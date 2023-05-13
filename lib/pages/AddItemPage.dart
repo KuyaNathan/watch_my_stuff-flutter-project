@@ -145,6 +145,8 @@ class _AddItemPageState extends State<AddItemPage> {
 
 
 
+
+// old code keeping just in case
 /*
 class AddItemPage extends StatelessWidget {
   const AddItemPage({super.key});

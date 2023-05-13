@@ -211,6 +211,24 @@ class _SignUpPageState extends State<SignUpPage> {
               const Padding(
                 padding: EdgeInsets.all(10),
               ),
+
+
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+
+
+
+
+
+
+
+//------------ old code keeping just in case
 /*
               Container(
                 height: 40,
@@ -234,23 +252,7 @@ class _SignUpPageState extends State<SignUpPage> {
                 ),
               ),
 
- */
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-
-
-
-
-
-
-
-
+      */
 
 
 

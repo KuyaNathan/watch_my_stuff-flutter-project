@@ -55,28 +55,6 @@ class SideMenu extends StatelessWidget{
             ),
 
 
-            /*
-            Container(
-              decoration: const BoxDecoration(
-                  border: Border(bottom: BorderSide(color: Colors.black54))
-              ),
-              child: ListTile(
-                  title: const Text('Manage Orders',
-                    style: TextStyle(color: Colors.black, fontSize: 25),),
-                  onTap: ()  {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => const OrdersPage()),
-                    );
-                  }
-              ),
-            ),
-
-             */
-
-
-
-
             Container(
               decoration: const BoxDecoration(
                   border: Border(bottom: BorderSide(color: Colors.black54))
@@ -92,28 +70,6 @@ class SideMenu extends StatelessWidget{
                   }
               ),
             ),
-
-
-
-            /*
-            Container(
-              decoration: const BoxDecoration(
-                  border: Border(bottom: BorderSide(color: Colors.black54))
-              ),
-              child: ListTile(
-                  title: const Text('Add New Order',
-                    style: TextStyle(color: Colors.black, fontSize: 25),),
-                  onTap: ()  {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => const AddOrderPage()),
-                    );
-                  }
-              ),
-            ),
-
-             */
-
 
             Container(
               decoration: const BoxDecoration(
@@ -149,4 +105,51 @@ class SideMenu extends StatelessWidget{
     );
   }
 }
+
+
+
+
+// code for the buttons that lead to the addOrder and manageOrder features that I was not able to implement yet
+
+/*
+            Container(
+              decoration: const BoxDecoration(
+                  border: Border(bottom: BorderSide(color: Colors.black54))
+              ),
+              child: ListTile(
+                  title: const Text('Manage Orders',
+                    style: TextStyle(color: Colors.black, fontSize: 25),),
+                  onTap: ()  {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const OrdersPage()),
+                    );
+                  }
+              ),
+            ),
+
+             */
+
+
+
+
+
+/*
+            Container(
+              decoration: const BoxDecoration(
+                  border: Border(bottom: BorderSide(color: Colors.black54))
+              ),
+              child: ListTile(
+                  title: const Text('Add New Order',
+                    style: TextStyle(color: Colors.black, fontSize: 25),),
+                  onTap: ()  {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const AddOrderPage()),
+                    );
+                  }
+              ),
+            ),
+
+             */
 
