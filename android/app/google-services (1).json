@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "628682241827",
+    "project_id": "inventory-app-a7670",
+    "storage_bucket": "inventory-app-a7670.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628682241827:android:5dc2dd1388536b87fd7e96",
+        "android_client_info": {
+          "package_name": "com.nathanielbattad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628682241827-j4gjnq0qbkui31ffgcu1n42vllqcc9cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBosn_XXWfshPjUWpDhXjE9_MSwZ3tB4OQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628682241827-j4gjnq0qbkui31ffgcu1n42vllqcc9cr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
